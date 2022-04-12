@@ -15,19 +15,21 @@
 </head>
 
 <body>
-    <div class="row encabezado container-fluid m-0 p-0">
-        <h1 class="titulo col-12 "> 👾 Adiviná el Numero 👾</h1>
-        <h5 class="especificacion col-12"> (Entre 1 y 30)</h5>
-        <div class="medio row col-12">
-            <div class="input col-4">
+    <div class="encabezado row m-0">
+        <header class="col-12">
+            <h1 class="titulo col-12 "> 👾 Adiviná el Numero 👾</h1>
+            <h5 class="especificacion col-12"> (Entre 1 y 30)</h5>
+        </header>
+        <div class="medio  col-12 row">
+            <div class="input  col-sm-12 col-md-4">
                 <h2>Adiviná acá</h2>
                 <input type="number" id="uno">
                 <button id="btn-1">Probar</button>
             </div>
-            <div class="numero col-4">
+            <div class="numero col-sm-12 col-md-4">
                 <p id="numeroMisterioso">?</p>
             </div>
-            <div class="puntaje col-4 row">
+            <div class="puntaje col-sm-12 col-md-4">
                 <p class="intentos">Intentos restantes : <span class="vidas">10</span> </p>
                 <p class="highScore">Highscore :<span class="puntajeAlto"> -</span> </p>
                 <p class="pista">...</p>
